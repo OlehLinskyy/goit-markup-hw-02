@@ -1,110 +1,112 @@
 :root {
-    --primary: #4D5AE5;
-    --dark: #2E2F42;
-    --success:#31D0AA;
-    --text:#434455;
-    --subtle-text:#8E8F99;
-    --accent:#E7E9FC;
-    --light:#F4F4FD;
-    --primary-dark:#404BBF;
-    --white:#FFFFFF;
+  --primary: #4d5ae5;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --primary-dark: #404bbf;
+  --white: #ffffff;
 }
 body {
-    font-family: Roboto;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 2%;
-    color: var(--text);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 2%;
+  color: var(--text);
 }
 .logo {
-    font-family: Raleway;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 133%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
-    color:var(--dark)
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 133%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--dark);
 }
 .logo > span {
-    color:var(--primary);
+  color: var(--primary);
 }
-.link{
-    text-decoration: none;
-    color:var(--text);
+.link {
+  text-decoration: none;
+  color: var(--text);
 }
-.list{
-    list-style: none;
+.list {
+  list-style: none;
 }
-.site-nav .link{
-    color:var(--dark);
-    font-weight: 600;
+.site-nav .link {
+  color: var(--dark);
+  font-weight: 600;
 }
-.site-nav .link:hover, .site-nav .link:focus {
-    color:var(--text);
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--text);
 }
-.link:active:not(.logo){
-    color:var(--primary)
+.link:active:not(.logo) {
+  color: var(--primary);
 }
-.title{
-    font-size: 56px;
-    line-height: 107%;
-    color:var(--white)
+.title {
+  font-size: 56px;
+  line-height: 107%;
+  color: var(--white);
 }
-.hero{
-    background-color:var(--dark) ;
+.hero {
+  background-color: var(--dark);
 }
-.button{
-    font-weight: 600; 
-    font-size: 16px;
-    line-height: 19px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border:none;
-    border-radius: 4px;
-    letter-spacing: 0.04em;
+.button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  letter-spacing: 0.04em;
 }
-.button.primary{
-    color:var(--white);
-    background-color: var(--primary);
+.button.primary {
+  color: var(--white);
+  background-color: var(--primary);
 }
-.button.secondary{
-    color:var(--primary);
-    background-color:var(--light) ;
+.button.secondary {
+  color: var(--primary);
+  background-color: var(--light);
 }
-.button.secondary:hover{
-    color:#FFFFFF;
-    background-color: var(--primary);
+.button.secondary:hover {
+  color: #ffffff;
+  background-color: var(--primary);
 }
-.button:hover{
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
-    cursor: pointer;
+.button:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  cursor: pointer;
 }
-.button:active{
-    background-color: var(--primary-dark);
+.button:active {
+  background-color: var(--primary-dark);
 }
-.subtitle{
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0.02em;
-    color:var(--dark)
+.subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: var(--dark);
 }
-.subject{
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 111%;
-    letter-spacing: 0.02em;
-    color:var(--dark);
+.subject {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  color: var(--dark);
 }
-.page-footer{
-    background-color: var(--dark);
+.page-footer {
+  background-color: var(--dark);
 }
-.page-footer >.logo {
-    color:var(--light);
+.page-footer > .logo {
+  color: var(--light);
 }
-.page-footer > p{
-    color:var(--accent);
+.page-footer > p {
+  color: var(--accent);
 }
-.site-nav .link.active{
-    color:var(--primary)
+.site-nav .link.active {
+  color: var(--primary);
 }
