@@ -12,7 +12,7 @@
 body {
   font-family: Roboto;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 2%;
   color: var(--text);
 }
@@ -20,7 +20,7 @@ body {
   font-family: Raleway;
   font-weight: 800;
   font-size: 18px;
-  line-height: 133%;
+  line-height: 1, 33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -38,7 +38,7 @@ body {
 }
 .site-nav .link {
   color: var(--dark);
-  font-weight: 600;
+  font-weight: 500;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -49,16 +49,16 @@ body {
 }
 .title {
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
   color: var(--white);
 }
 .hero {
   background-color: var(--dark);
 }
 .button {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
@@ -71,9 +71,10 @@ body {
 .button.secondary {
   color: var(--primary);
   background-color: var(--light);
+  line-height: 1.5;
 }
 .button.secondary:hover {
-  color: #ffffff;
+  color: var(--white);
   background-color: var(--primary);
 }
 .button:hover {
@@ -85,16 +86,16 @@ body {
   background-color: var(--primary-dark);
 }
 .subtitle {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark);
 }
 .subject {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--dark);
 }
